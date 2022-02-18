@@ -1,0 +1,34 @@
+h1 {
+    color: blue;
+  
+
+}
+
+p{
+    color: yellow;
+    background-color: aquamarine;
+}
+
+.mojaklasa{
+    color: red;
+    font-size: 70px;
+}
+
+.glavni{
+    color: blueviolet;
+    font-size: 60px;
+    width: 200px;
+    height: 400px;
+    background-color: aqua;
+
+}
+
+.sporedni {
+    color: chartreuse;
+    font-size: 40px;
+}
+
+.vazno{
+    color: black;
+    font-size: 20px;
+}

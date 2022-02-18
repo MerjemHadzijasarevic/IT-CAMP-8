@@ -1,0 +1,14 @@
+div {
+  background-color: yellow;
+  border: 2px double violet;
+}
+p {
+  text-align: center;
+  color: blueviolet;
+  font-weight: bold;
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+}

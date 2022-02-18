@@ -1,0 +1,17 @@
+src je atribut
+href je isto atribut
+img je samozatvarajuci tag
+<br/> samozatvarajuci novi red 
+sliku vucemo iz pc sa <img src="./ neki link ovde">
+
+inline css je bitniji od externog
+poslednje promene se primenjuju 
+
+inline css> <h2 style="color : pink">Heading 2</h2>
+link u headu ya poveyivanje: <link rel="stylesheet" href="./style.css" />
+ 
+tailblocks
+domaci
+what is html 
+w3school.com html home introduction basics
+ponedeljak sreda petak u 19.30

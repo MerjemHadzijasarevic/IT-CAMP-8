@@ -1,0 +1,42 @@
+body {
+  background-color: #1a1a1a;
+}
+.kartica {
+  background-color: #181d21;
+  width: 400px;
+  height: 415px;
+  border: 1px solid rgb(59, 59, 59);
+  border-radius: 20px;
+  padding: 20px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-left: 8px;
+}
+p,
+h3 {
+  padding-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+  color: white;
+}
+p {
+  color: #9399b3;
+}
+.mainpic {
+  border-radius: 10px;
+}
+.ikonice {
+  height: 30px;
+  width: 400px;
+  margin-top: 20px;
+  padding-left: 55px;
+}
+.icon {
+  color: #9399b3;
+  font-size: 20px;
+  margin-right: 110px;
+}

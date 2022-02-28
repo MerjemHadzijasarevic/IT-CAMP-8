@@ -1,0 +1,35 @@
+.main,
+.prvi,
+.drugi,
+.treci {
+  border: 2px solid black;
+  text-align: center;
+}
+.main {
+  width: 600px;
+  height: 200px;
+  position: relative;
+}
+.prvi,
+.drugi,
+.treci {
+  position: absolute;
+}
+.prvi {
+  width: 200px;
+  height: 80px;
+  top: 10px;
+  left: 10px;
+}
+.drugi {
+  width: 100px;
+  height: 50px;
+  top: 10px;
+  right: 10px;
+}
+
+.treci {
+  width: 500px;
+  right: 10px;
+  bottom: 10px;
+}

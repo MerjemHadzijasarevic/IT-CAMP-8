@@ -1,0 +1,27 @@
+.main {
+  position: relative;
+}
+.main > div {
+  border: 2px solid black;
+  width: 100px;
+  height: 400px;
+}
+.prvi,
+.drugi,
+.treci,
+.cetvrti {
+  position: absolute;
+}
+.prvi {
+  left: 0px;
+}
+.drugi {
+  left: 120px;
+}
+.treci {
+  left: 240px;
+  z-index: 1;
+}
+.cetvrti {
+  left: 360px;
+}

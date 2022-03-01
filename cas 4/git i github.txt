@@ -1,0 +1,6 @@
+git status
+
+git init - otvara novi repository
+git add . dodaje u repository
+git commit -m ""
+git push origin master

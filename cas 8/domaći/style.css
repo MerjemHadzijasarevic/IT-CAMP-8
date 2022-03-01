@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  margin: 200px 0px 0px 400px;
+  height: 600px;
+}
+.sideline {
+  width: 4px;
+  height: 500px;
+  background-color: rgb(233, 233, 233);
+  position: relative;
+  display: inline-block;
+}
+.numbers {
+  background-color: rgb(100, 115, 250);
+  font-size: 12px;
+  width: 25px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+.no1,
+.no2,
+.no3,
+.no4 {
+  position: absolute;
+  left: -11px;
+}
+.no1 {
+  top: 65px;
+}
+.no2 {
+  top: 180px;
+}
+.no3 {
+  top: 295px;
+}
+.no4 {
+  top: 410px;
+}
+.main {
+  display: inline-block;
+  margin-left: 40px;
+  position: relative;
+  top: -48px;
+}
+.card {
+  margin-bottom: 40px;
+}
+img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+img,
+.text {
+  display: inline-block;
+}
+h4 {
+  font-weight: 300;
+}
+p {
+  font-size: 12px;
+  color: rgb(136, 136, 136);
+}
+.text {
+  padding-left: 15px;
+  position: relative;
+  top: -20px;
+}

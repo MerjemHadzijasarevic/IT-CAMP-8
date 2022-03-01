@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body,
+.container {
+  margin: 0 auto;
+}
+
+body,
+.nav {
+  width: 1800px;
+}
+body,
+.nav,
+p,
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav,
+.logo,
+.info {
+  display: inline-block;
+}
+.nav {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  position: absolute;
+  box-shadow: 0px 5px 20px #d1d1d1;
+  z-index: 1;
+}
+.logo {
+  padding-top: 7px;
+  margin: 5px 0px 0px 30px;
+}
+.info {
+  margin-right: 20px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 1500px;
+}
+.textover > div,
+p {
+  color: rgba(24, 24, 24, 0.829);
+  font-size: 30px;
+  display: inline-block;
+}
+.brtext {
+  width: 60px;
+  height: 58px;
+  padding: 20px 0px 0px 15px;
+  background-color: rgba(70, 70, 70, 0.363);
+  border-radius: 10px;
+}
+.textover {
+  position: absolute;
+  left: 850px;
+  top: 340px;
+}
+.projects {
+  height: 50px;
+  margin-top: 40px;
+  border-bottom: 1px solid gainsboro;
+}
+h3 {
+  font-weight: 300;
+}
+
+.kuce {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.kuce > img {
+  width: 360px;
+  height: 250px;
+}
+.about {
+  padding-top: 10px;
+  font-size: 17px;
+}
+.team {
+  margin-top: 40px;
+}

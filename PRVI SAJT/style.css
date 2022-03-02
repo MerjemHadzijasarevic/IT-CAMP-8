@@ -2,49 +2,72 @@
   margin: 0px;
   padding: 0px;
 }
-
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body,
 .container {
   margin: 0 auto;
 }
-
 body,
 .nav {
   width: 1800px;
 }
-body,
-.nav,
-p,
-h4 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 .nav,
 .logo,
-.info {
+.info,
+.kuce,
+.textover > div,
+p {
   display: inline-block;
 }
+.sendmsg,
 .nav {
-  background-color: rgb(255, 255, 255);
-  height: 50px;
+  font-size: 23px;
+}
+.name,
+.footer {
+  font-size: 20px;
+}
+.button,
+.footer,
+.sendmsg {
+  text-align: center;
+}
+.membersinfo > h2,
+h4,
+p,
+.button,
+.sendmsg {
+  padding-top: 10px;
+}
+.info,
+.textover {
   position: absolute;
+}
+.membersinfo > h2,
+h4 {
+  font-weight: 300;
+}
+.nav {
+  background-color: white;
+  height: 70px;
+  position: sticky;
+  top: 0px;
   box-shadow: 0px 5px 20px #d1d1d1;
-  z-index: 1;
+  z-index: 10;
 }
 .logo {
-  padding-top: 7px;
-  margin: 5px 0px 0px 30px;
+  margin: 20px 0px 0px 30px;
 }
 .info {
-  margin-right: 20px;
-  position: absolute;
-  right: 10px;
-  top: 15px;
+  right: 25px;
+  top: 20px;
 }
 a {
   text-decoration: none;
   color: black;
 }
-
 .container {
   width: 1500px;
 }
@@ -52,18 +75,18 @@ a {
 p {
   color: rgba(24, 24, 24, 0.829);
   font-size: 30px;
-  display: inline-block;
 }
 .brtext {
   width: 60px;
   height: 58px;
   padding: 20px 0px 0px 15px;
+  margin-right: 10px;
   background-color: rgba(70, 70, 70, 0.363);
   border-radius: 10px;
+  box-shadow: 1px 1px 20px #c2c2c2;
 }
 .textover {
-  position: absolute;
-  left: 850px;
+  left: 1050px;
   top: 340px;
 }
 .projects {
@@ -74,20 +97,63 @@ p {
 h3 {
   font-weight: 300;
 }
-
 .kuce {
-  display: inline-block;
   margin-left: 10px;
   margin-top: 10px;
 }
 .kuce > img {
-  width: 360px;
   height: 250px;
 }
+.membersinfo,
+.kuce > img {
+  width: 360px;
+}
 .about {
-  padding-top: 10px;
+  padding-top: 20px;
   font-size: 17px;
 }
 .team {
   margin-top: 40px;
+}
+.membersinfo > h4 {
+  color: rgb(155, 155, 155);
+}
+.membersinfo > p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.button {
+  background-color: rgb(231, 231, 231);
+  height: 30px;
+}
+.button:hover {
+  background-color: rgb(165, 165, 165);
+}
+.form {
+  margin-top: 20px;
+}
+.name {
+  border: 1px solid #c2c2c2;
+  border-radius: 2px;
+  margin-top: 15px;
+  height: 40px;
+  color: #8f8f8f;
+  padding: 15px 0px 0px 10px;
+}
+.sendmsg {
+  margin: 20px 0px 40px 0px;
+  width: 250px;
+  height: 40px;
+  color: white;
+  background-color: black;
+}
+.sendmsg:hover {
+  background-color: #c2c2c2;
+  color: black;
+}
+.footer {
+  background-color: black;
+  color: white;
+  height: 70px;
+  padding-top: 40px;
 }

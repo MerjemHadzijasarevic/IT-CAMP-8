@@ -1,0 +1,40 @@
+.logo > img,
+h2,
+.info > a,
+.info,
+.logo {
+  display: inline-block;
+}
+.nav {
+  position: sticky;
+  top: 0px;
+}
+img {
+  border-radius: 50%;
+}
+a {
+  font-size: 20px;
+  margin-left: 25px;
+}
+.info {
+  float: right;
+  padding-top: 15px;
+}
+h2 {
+  margin-top: 0px;
+}
+.github {
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 20px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.wrap {
+  height: 200vh;
+}

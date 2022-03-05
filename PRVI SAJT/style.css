@@ -5,11 +5,9 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body,
 .container {
   margin: 0 auto;
 }
-body,
 .nav {
   width: 1800px;
 }
@@ -32,7 +30,8 @@ p {
 }
 .button,
 .footer,
-.sendmsg {
+.sendmsg,
+.nameofthehouse {
   text-align: center;
 }
 .membersinfo > h2,
@@ -52,12 +51,14 @@ h4 {
 .nav {
   background-color: white;
   height: 70px;
+  width: 100vw;
   position: sticky;
   top: 0px;
   box-shadow: 0px 5px 20px #d1d1d1;
   z-index: 10;
 }
-.company {
+.company,
+.info {
   margin: 10px 0px 0px 30px;
   padding: 10px 10px 10px 10px;
 }
@@ -65,14 +66,23 @@ h4 {
   background-color: rgb(165, 165, 165);
 }
 .info {
+  margin-right: 30px;
   float: right;
 }
 a {
+  margin-left: 25px;
   text-decoration: none;
   color: black;
 }
 .container {
-  width: 1500px;
+  width: 1800px;
+}
+.mainpic,
+.mainpic > img {
+  height: 80vh;
+}
+.mainpic {
+  position: relative;
 }
 .textover > div,
 p {
@@ -89,47 +99,64 @@ p {
   box-shadow: 1px 1px 20px #c2c2c2;
 }
 .textover {
-  left: 1050px;
+  left: 740px;
   top: 340px;
 }
 .projects {
   height: 50px;
-  margin-top: 40px;
+  margin-top: 60px;
   border-bottom: 1px solid gainsboro;
+  padding-bottom: 18px;
+}
+.cards {
+  margin-top: 30px;
 }
 h3 {
+  font-size: 30px;
   font-weight: 300;
 }
 .kuce {
   margin-left: 10px;
   margin-top: 10px;
+  position: relative;
 }
 .kuce > img {
-  height: 250px;
+  height: 300px;
 }
 .membersinfo,
 .kuce > img {
-  width: 360px;
+  width: 430px;
 }
 .about {
   padding-top: 20px;
-  font-size: 17px;
+  font-size: 20px;
 }
 .team {
-  margin-top: 40px;
+  margin-top: 50px;
+}
+.membersinfo > h4,
+.membersinfo > h1,
+.membersinfo > p {
+  margin-top: 15px;
+}
+.membersinfo > h1 {
+  font-weight: 100;
 }
 .membersinfo > h4 {
+  font-size: 20px;
   color: rgb(155, 155, 155);
 }
 .membersinfo > p {
-  font-size: 15px;
-  margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 .button {
   background-color: rgb(231, 231, 231);
-  height: 30px;
+  height: 40px;
+  font-size: 19px;
 }
-.button:hover {
+.button:hover,
+.nameofthehouse:hover {
   background-color: rgb(165, 165, 165);
 }
 .form {
@@ -144,7 +171,7 @@ h3 {
   padding: 15px 0px 0px 10px;
 }
 .sendmsg {
-  margin: 20px 0px 40px 0px;
+  margin: 35px 0px 40px 0px;
   width: 250px;
   height: 40px;
   color: white;
@@ -154,7 +181,13 @@ h3 {
   background-color: #c2c2c2;
   color: black;
 }
+.endpic {
+  margin-top: 10px;
+  height: 85vh;
+  width: 100%;
+}
 .footer {
+  width: 100vw;
   background-color: black;
   color: white;
   height: 70px;
@@ -163,4 +196,14 @@ h3 {
 .footer > a {
   color: white;
   text-decoration: underline white;
+}
+.nameofthehouse {
+  font-size: 20px;
+  width: 200px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.692);
+  position: absolute;
+  color: white;
+  padding-top: 15px;
+  border-radius: 5px;
 }

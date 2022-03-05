@@ -1,17 +1,33 @@
-src je atribut
-href je isto atribut
-img je samozatvarajuci tag
-<br/> samozatvarajuci novi red 
-sliku vucemo iz pc sa <img src="./ neki link ovde">
+src, href, rel - atributi
+class, id - selektori
+<img/>, <br/>(novi red), <link/> - samozatvarajuci tagovi
 
-inline css je bitniji od externog
-poslednje promene se primenjuju 
+velicine:---------------------------------------------
+vh - view height (od okvira prozora) (kao responsive)
+vw - view width     -II-
+rem = 16px
+% - velicina u zavisnosti od roditelja (kao responsive)
+px - fixni
+------------------------------------------------------
+link za doc:
+sliku vucemo iz pc: <img src="./ neki link ovde">
+inline css: <h2 style="color : pink">Heading 2</h2>
+tag za povezivanje externog css: <link rel="stylesheet" href="./style.css" />
+------------------------------------------------------
+inline css se pre čita od externog
+poslednje promene u css-u se primenjuju 
 
-inline css> <h2 style="color : pink">Heading 2</h2>
-link u headu ya poveyivanje: <link rel="stylesheet" href="./style.css" />
- 
+css property:-----------------------------------------
+float: left, right
+position: sticky, fixed, static, relative, absolute((z-index),(važi za prvi element koji ima poziciju različitu od *static*
+
+margin & padding:----------------------------------------------
+margin: 15px 10px (15->top i bottom) (10->left i right)
+margin: 5px 10px 15px 20px (top right bottom left)
+*same goes for padding
+margin: 0px auto -> centriranje (deli jednako prazan prostor)
+
+
 tailblocks
-domaci
-what is html 
-w3school.com html home introduction basics
-ponedeljak sreda petak u 19.30
+fontawesome
+ponedeljak sreda petak/19.30

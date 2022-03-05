@@ -1,0 +1,10 @@
+ul {
+  background-color: aqua;
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+ol {
+  background-color: rgb(225, 226, 146);
+}

@@ -62,7 +62,8 @@ h4 {
   margin: 10px 0px 0px 30px;
   padding: 10px 10px 10px 10px;
 }
-.company:hover {
+.company:hover,
+a:hover {
   background-color: rgb(165, 165, 165);
 }
 .info {
@@ -70,6 +71,7 @@ h4 {
   float: right;
 }
 a {
+  padding: 10px;
   margin-left: 25px;
   text-decoration: none;
   color: black;

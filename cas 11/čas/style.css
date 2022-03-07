@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+  background-color: dodgerblue;
+  padding: 20px;
+}
+h1 {
+  padding-top: 5px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+h1,
+li {
+  color: white;
+}
+ul,
+li,
+h1 {
+  display: inline-block;
+}
+ul {
+  float: right;
+  margin-right: 20px;
+}
+li {
+  padding: 10px;
+  list-style-type: none;
+  margin-left: 10px;
+  font-size: 20px;
+}
+li:hover {
+  background-color: rgb(53, 100, 255);
+}

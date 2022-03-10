@@ -26,8 +26,14 @@ margin: 15px 10px (15->top i bottom) (10->left i right)
 margin: 5px 10px 15px 20px (top right bottom left)
 *same goes for padding
 margin: 0px auto -> centriranje (deli jednako prazan prostor)
+---------------------------------------------------------------
+*za tabele*
+tr- table row ; th-table head ; td- table data
+tr:nth-child (even;odd; neki broj reda(da se promeni boja ili slicno))
+th,td {border}
+css: border-collapse:collapse; (za spajanje ćelija)
 
-
+w3schools
 tailblocks
 fontawesome
 ponedeljak sreda petak/19.30

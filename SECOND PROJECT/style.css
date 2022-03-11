@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav,
+.frame1 {
+  width: 100%;
+}
+nav {
+  background-color: rgb(62, 97, 172);
+  height: 10vh;
+  color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  box-shadow: 4px 4px 20px rgba(255, 255, 255, 0.815);
+}
+h3,
+.navitems {
+  display: inline-block;
+  font-size: 20px;
+}
+.navitems {
+  margin-top: 35px;
+  float: right;
+}
+h3 {
+  margin-left: 100px;
+  letter-spacing: 2px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+a {
+  margin: 0px 150px 0px 0px;
+}
+.frame1,
+.firstpic {
+  height: 90vh;
+}
+.frame {
+  height: 100vh;
+  position: relative;
+}
+.frame2 {
+  background-color: rgb(214, 214, 214);
+}
+.frame4 {
+  background-color: rgb(128, 56, 110);
+  height: 80vh;
+}
+.txt,
+.secondpic,
+.cloud {
+  position: absolute;
+}
+.txt {
+  top: 400px;
+  left: 600px;
+  text-align: center;
+}
+.button {
+  width: 100px;
+  height: 20px;
+  background-color: rgb(62, 97, 172);
+  padding: 20px;
+  margin: 20px auto;
+}
+.button:hover,
+a:hover {
+  background-color: rgb(48, 74, 131);
+}
+.cloud {
+  top: 0px;
+  right: 0px;
+}
+.secondpic {
+  bottom: 0px;
+  left: 300px;
+  z-index: 1;
+}
+.txt2,
+.txt {
+  color: white;
+}
+.txt2 {
+  position: relative;
+  top: 300px;
+  left: 100px;
+  width: 40%;
+  font-size: 20px;
+}
+.beach {
+  width: 100%;
+  height: 100vh;
+}
+.txt3 {
+  position: absolute;
+  top: 100px;
+  left: 530px;
+  color: rgb(62, 97, 172);
+  font-size: 20px;
+  text-align: center;
+}
+.cards {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+}
+.cardisplay {
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  display: inline-block;
+  margin: 0px 100px;
+  box-shadow: 4px 4px 20px rgba(172, 172, 172, 0.815);
+}
+.firsthalf {
+  height: 100px;
+  background-color: rgb(62, 97, 172);
+}
+.secondhalf > h4,
+.secondhalf > p {
+  text-align: center;
+  color: rgb(62, 97, 172);
+  font-size: 20px;
+  margin: 30px;
+}
+.icon {
+  font-size: 50px;
+  padding: 20px;
+  margin-left: 130px;
+  color: white;
+}
+footer {
+  background-color: rgb(48, 74, 131);
+  height: 10vh;
+  width: 100%;
+}
+.footericon {
+  font-size: 30px;
+  margin-left: 100px;
+  color: white;
+}

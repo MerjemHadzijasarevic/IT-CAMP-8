@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: antiquewhite;
+  position: relative;
+  overflow: hidden;
+}
+.main {
+  background-color: whitesmoke;
+}
+.cloud {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.city {
+  position: absolute;
+  bottom: 0px;
+  left: 300px;
+}
+.cloud,
+.cloud2 {
+  position: absolute;
+  top: -300px;
+  right: -300px;
+  animation: animacija2 5s ease;
+  animation-iteration-count: infinite;
+}
+.cloud2 {
+  animation-delay: 3s;
+}
+
+@keyframes animacija {
+  0% {
+    top: -100px;
+    right: -100px;
+  }
+  50% {
+    top: 0px;
+    right: 0px;
+  }
+  0% {
+    top: -100px;
+    right: -100px;
+  }
+}
+@keyframes animacija2 {
+  0% {
+    top: -100px;
+    right: -100px;
+  }
+  50% {
+    top: 0px;
+    right: 0px;
+  }
+  0% {
+    top: -100px;
+    right: -100px;
+  }
+}

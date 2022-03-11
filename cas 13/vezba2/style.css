@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+div {
+  width: 300px;
+  height: 300px;
+  animation: animacija 3s ease;
+  background-color: dodgerblue;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+@keyframes animacija {
+  0% {
+    background-color: rgb(216, 86, 86);
+    top: 0px;
+    left: 0px;
+  }
+  30% {
+    background-color: rgb(47, 96, 231);
+    top: 0px;
+    left: 500px;
+  }
+  50% {
+    background-color: rgb(66, 133, 66);
+    top: 500px;
+    left: 500px;
+  }
+  75% {
+    background-color: violet;
+    top: 500px;
+    left: 0px;
+  }
+  100% {
+    background-color: violet;
+    top: 0px;
+    left: 0px;
+  }
+}

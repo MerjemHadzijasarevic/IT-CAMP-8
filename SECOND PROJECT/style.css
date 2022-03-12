@@ -6,25 +6,39 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav,
-.frame1 {
+.frame1,
+.beach,
+footer {
   width: 100%;
 }
-nav {
-  background-color: rgb(62, 97, 172);
+nav,
+footer {
   height: 10vh;
-  color: white;
+}
+nav {
   position: sticky;
   top: 0px;
   z-index: 100;
   box-shadow: 4px 4px 20px rgba(255, 255, 255, 0.815);
 }
 h3,
-.navitems {
-  display: inline-block;
+.navitems,
+.cardisplay,
+.txt2,
+.txt3,
+.button > h4 {
   font-size: 20px;
 }
+.secondhalf > p {
+  font-size: 23px;
+}
+h3,
+.navitems,
+.cardisplay {
+  display: inline-block;
+}
 .navitems {
-  margin-top: 35px;
+  margin-top: 32px;
   float: right;
 }
 h3 {
@@ -34,113 +48,228 @@ h3 {
   margin-top: 30px;
 }
 a {
-  margin: 0px 150px 0px 0px;
+  margin: 0px 120px 0px 0px;
+  text-decoration: none;
+  padding: 10px 15px;
 }
 .frame1,
 .firstpic {
   height: 90vh;
 }
-.frame {
+.frame,
+.beach {
   height: 100vh;
+}
+.frame {
+  overflow: hidden;
+}
+.frame,
+.txt2,
+.contact {
   position: relative;
+}
+.frame1 {
+  background-image: url("../SECOND\ PROJECT/pictures/1.jpg");
 }
 .frame2 {
   background-color: rgb(214, 214, 214);
+  background-image: linear-gradient(rgba(99, 99, 99, 0.5), transparent);
 }
 .frame4 {
-  background-color: rgb(128, 56, 110);
+  background-image: url("../SECOND\ PROJECT/pictures/3.jpg");
   height: 80vh;
 }
 .txt,
 .secondpic,
-.cloud {
+.cloud,
+.cards,
+.txt3 {
   position: absolute;
 }
 .txt {
-  top: 400px;
+  top: 300px;
   left: 600px;
+}
+.txt > h1 {
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+.txt > h1,
+.txt > h2,
+.txt2 > h1,
+.txt2 > p {
+  text-shadow: 2px 2px 10px rgb(53, 53, 53);
+}
+.txt > h2,
+.footericon {
+  font-size: 30px;
+}
+.txt > h2,
+.button > h4 {
+  font-weight: 500;
+}
+.txt,
+.txt3,
+.secondhalf > h4,
+.secondhalf > p,
+.button > h4 {
   text-align: center;
 }
-.button {
-  width: 100px;
-  height: 20px;
-  background-color: rgb(62, 97, 172);
+.button,
+.icon {
   padding: 20px;
-  margin: 20px auto;
+}
+.button {
+  width: 130px;
+  height: 25px;
+  margin: 40px auto;
+  border-radius: 5px;
 }
 .button:hover,
 a:hover {
   background-color: rgb(48, 74, 131);
+  border-radius: 20px;
+  transition: 0.5s all;
 }
 .cloud {
-  top: 0px;
-  right: 0px;
+  animation: animacija 7s ease;
+  width: 1200px;
+}
+.cloud,
+.cloud2 {
+  top: -100px;
+  right: -100px;
+  animation-iteration-count: infinite;
+}
+.cloud2 {
+  width: 1000px;
+  animation: animacija2 7s ease;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
 }
 .secondpic {
   bottom: 0px;
   left: 300px;
   z-index: 1;
 }
+nav,
+a,
 .txt2,
-.txt {
+.txt,
+.txt3 > p,
+.txt3 > h1,
+.button,
+.icon,
+.footericon,
+.contact > h1,
+footer > h3 {
   color: white;
 }
 .txt2 {
-  position: relative;
   top: 300px;
   left: 100px;
-  width: 40%;
-  font-size: 20px;
+  width: 50%;
 }
-.beach {
-  width: 100%;
-  height: 100vh;
+.txt2 > p,
+.txt3 > p,
+.secondhalf > h4 {
+  font-size: 27px;
+}
+.txt2 > h1 {
+  font-size: 35px;
+  text-decoration: underline;
+  margin-bottom: 25px;
 }
 .txt3 {
-  position: absolute;
-  top: 100px;
-  left: 530px;
-  color: rgb(62, 97, 172);
-  font-size: 20px;
-  text-align: center;
+  top: 200px;
+  left: 370px;
+  text-shadow: 2px 2px 10px rgb(175, 175, 175);
 }
 .cards {
-  position: absolute;
-  top: 350px;
+  top: 400px;
   left: 100px;
+}
+.cardisplay,
+.contact {
+  box-shadow: 2px 2px 20px rgba(172, 172, 172, 0.815);
 }
 .cardisplay {
   width: 350px;
   height: 350px;
-  background-color: white;
-  display: inline-block;
   margin: 0px 100px;
-  box-shadow: 4px 4px 20px rgba(172, 172, 172, 0.815);
+}
+nav,
+.firsthalf,
+.button,
+footer {
+  background-color: rgb(62, 97, 172);
 }
 .firsthalf {
   height: 100px;
-  background-color: rgb(62, 97, 172);
 }
 .secondhalf > h4,
 .secondhalf > p {
-  text-align: center;
   color: rgb(62, 97, 172);
-  font-size: 20px;
+}
+.secondhalf > h4,
+.secondhalf > p {
   margin: 30px;
 }
 .icon {
   font-size: 50px;
-  padding: 20px;
-  margin-left: 130px;
-  color: white;
-}
-footer {
-  background-color: rgb(48, 74, 131);
-  height: 10vh;
-  width: 100%;
+  margin-left: 120px;
 }
 .footericon {
-  font-size: 30px;
-  margin-left: 100px;
-  color: white;
+  margin-left: 0px 120px 0px 20px;
+}
+.contact {
+  background-color: rgba(28, 45, 90, 0.781);
+  width: 700px;
+  height: 50vh;
+  border-radius: 15px;
+  margin: auto;
+  top: 150px;
+}
+.contact > h1 {
+  padding: 50px 270px;
+}
+.form > div,
+.cardisplay {
+  background-color: white;
+}
+.form > div {
+  width: 450px;
+  height: 25px;
+  border-radius: 5px;
+  margin: 40px auto;
+  color: grey;
+  padding: 15px;
+}
+@keyframes animacija {
+  0% {
+    top: -100;
+    right: -100;
+  }
+  50% {
+    top: 0;
+    right: 100;
+  }
+  100% {
+    top: -100;
+    right: -100;
+  }
+}
+@keyframes animacija2 {
+  0% {
+    top: -100;
+    right: -100;
+  }
+  50% {
+    top: 0;
+    right: 0;
+  }
+  100% {
+    top: -100;
+    right: -100;
+  }
 }

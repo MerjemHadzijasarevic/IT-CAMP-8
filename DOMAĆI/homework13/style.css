@@ -1,0 +1,139 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: rgb(103, 32, 170);
+}
+.wrapper {
+  position: relative;
+  margin: 5rem;
+}
+.prvi,
+.drugi,
+.treci,
+.cetvrti,
+.peti,
+.sesti {
+  width: 200px;
+  height: 600px;
+  border-radius: 15px;
+  display: inline-block;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  position: absolute;
+  transform-origin: center 90%;
+}
+.dot {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 68px;
+  top: 480px;
+  z-index: 15;
+}
+.prvi {
+  background-color: orangered;
+  animation-name: anim1;
+  left: 400px;
+  z-index: 10;
+}
+.drugi {
+  background-color: orange;
+  animation-name: anim2;
+  left: 400px;
+  z-index: 9;
+}
+.treci {
+  background-color: rgb(235, 235, 61);
+  animation-name: anim3;
+  left: 400px;
+  z-index: 8;
+}
+.cetvrti {
+  background-color: rgb(156, 231, 43);
+  animation-name: anim4;
+  left: 400px;
+  z-index: 7;
+}
+.peti {
+  background-color: blue;
+  animation-name: anim5;
+  left: 400px;
+  z-index: 6;
+}
+.sesti {
+  background-color: blueviolet;
+  animation-name: anim6;
+  left: 400px;
+  z-index: 5;
+}
+@keyframes anim1 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(-73deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes anim2 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(-45deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes anim3 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(-15deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes anim4 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(15deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes anim5 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(45deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes anim6 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(73deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}

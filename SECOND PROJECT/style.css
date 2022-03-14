@@ -150,8 +150,8 @@ a:hover {
 }
 .secondpic {
   bottom: 0px;
-  left: 300px;
-  z-index: 1;
+  left: 0px;
+  width: 100%;
 }
 nav,
 a,

@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.krug0,
+.krug1,
+.krug2 {
+}
+.krug {
+  border-radius: 50%;
+  background-color: gray;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 20px;
+  animation: animacija 1s ease-in-out;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.krug0 {
+  animation-delay: 0s;
+}
+.krug1 {
+  animation-delay: 1s;
+}
+.krug2 {
+  animation-delay: 2s;
+}
+@keyframes animacija {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

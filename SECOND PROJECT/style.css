@@ -124,6 +124,7 @@ a {
   height: 25px;
   margin: 40px auto;
   border-radius: 5px;
+  cursor: pointer;
 }
 .button:hover,
 a:hover {
@@ -143,7 +144,7 @@ a:hover {
 }
 .cloud2 {
   width: 1000px;
-  animation: animacija2 7s ease;
+  animation: animacija2 7s ease-in-outF;
   animation-delay: 2s;
   animation-iteration-count: infinite;
 }

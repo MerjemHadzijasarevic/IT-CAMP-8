@@ -1,0 +1,38 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.container,
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cards {
+  width: 25%;
+  height: 40vh;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 10px;
+}
+.top,
+.bottom {
+  height: 50%;
+}
+.top {
+  background-color: rgb(209, 209, 209);
+  justify-content: center;
+  align-items: center;
+}
+.bottom {
+  margin: 15px;
+  flex-direction: column;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .cards {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}

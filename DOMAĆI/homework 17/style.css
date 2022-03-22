@@ -1,0 +1,125 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav,
+.navtxt,
+.input1,
+form,
+.input2,
+.pol,
+.terms,
+.input3,
+.termsinput,
+.dugme {
+  display: flex;
+}
+.registrujse {
+  width: 700px;
+  height: 98vh;
+  margin: auto;
+  border: 1px solid black;
+}
+nav {
+  color: white;
+  background-color: black;
+  width: 680px;
+  height: 3vh;
+  padding: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navtxt {
+  width: 65%;
+  justify-content: space-between;
+}
+.icon {
+  margin: 10px 5px;
+  cursor: pointer;
+}
+form {
+  flex-flow: row wrap;
+  width: 96%;
+  height: 82vh;
+  padding: 10px 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.input1,
+.input3 {
+  flex-direction: column;
+}
+.input2,
+.pol,
+.robot,
+.termsinput {
+  flex-direction: row;
+}
+.input1 {
+  align-items: flex-start;
+  width: 48%;
+}
+input {
+  width: 98%;
+  height: 30px;
+}
+.input2 {
+  width: 100%;
+}
+.input3 {
+  width: 17%;
+  margin: 0px 5px;
+}
+.input4 {
+  width: 30%;
+}
+.broj {
+  width: 95%;
+}
+.pol {
+  width: 100%;
+  justify-content: space-evenly;
+}
+.robot {
+  width: 48%;
+  height: 60px;
+  background-color: rgb(238, 238, 238);
+  border: 1px solid darkgray;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  width: 50px;
+  height: 40px;
+}
+.rbtxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.terms {
+  width: 100%;
+  flex-direction: column;
+}
+.box {
+  margin-right: 5px;
+  width: 20px;
+  height: 20x;
+}
+button {
+  font-size: 18px;
+  width: 50%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+.dugme {
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}

@@ -47,10 +47,11 @@ for (i = 0; i < unos; i++) {
 
 console.log(sum);
 */
-
+/*
 red = Number(prompt("Unesite broj redova:"));
 str = "";
 for (i = 0; i < red; i++) {
   str += "*";
   console.log(str);
 }
+*/

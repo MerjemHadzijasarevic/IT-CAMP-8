@@ -10,6 +10,9 @@ console.log(numbers);
 //shift - izbacuje prvi
 //unshift - dodaje na pocetak
 
+//arr.slice( ukljucje prvi index, ali ne i poslednji)
+//arr.splice(prvi argument odakle brise, drugi koliko brise, treci dodaje)
+
 /* zameniti pozicije elementima u nizu
 numbers = [1, 2, 3, 4];
 reversearray = [];
@@ -51,7 +54,7 @@ for (i = 0; i < str.length; i++) {
 }
 console.log(res);
 */
-
+/*
 arr = [42, 25, 56, 47, 32];
 poz = [];
 neg = [];
@@ -64,3 +67,20 @@ for (el of arr) {
   }
 }
 console.log(poz);
+*/
+/*
+unos = prompt("Unesite broj");
+
+str = unos.toString();
+
+result = [str[0]];
+
+for (let x = 1; x < str.length; x++) {
+  if (str[x - 1] % 2 === 0 && str[x] % 2 === 0) {
+    result.push("-", str[x]);
+  } else {
+    result.push(str[x]);
+  }
+}
+console.log(result.join(""));
+*/

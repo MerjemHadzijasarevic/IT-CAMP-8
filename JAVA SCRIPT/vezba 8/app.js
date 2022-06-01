@@ -74,3 +74,41 @@ function matrica(unos) {
 
 matrica(5);
 */
+/*
+//twice as old
+function twiceasold(yearsOfFather, yearsOfSon) {
+  return Math.abs(yearsOfSon - (yearsOfFather - yearsOfSon));
+}
+res = twiceasold(36, 7);
+console.log(res);
+*/
+
+//takes 2 int as str = sum as str
+/*function sumString(a, b) {
+  unos1 = parseInt("5");
+  unos2 = parseInt("4");
+  sum = parseInt(a + b);
+
+  return sum;
+}
+*/
+
+/*function positiveOddBelowN(n) {
+ count = 0;
+for(i=1; i<count; i+=2;)
+return count;
+*/
+/*
+function checkSameCase(a, b) {
+
+  if (a == a.toLowerCase()===a &&  b.toLowerCase()===b) {
+    return 1;
+
+  } if (a == str1.toUpperCase() && str2 == str2.toUpperCase()) {
+    return 1;
+  }
+  else if ( Number(a)|| Number(b)){
+    return -1;
+  }
+}
+*/

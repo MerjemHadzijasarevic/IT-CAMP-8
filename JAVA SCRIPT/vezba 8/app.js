@@ -112,3 +112,128 @@ function checkSameCase(a, b) {
   }
 }
 */
+
+/*function multiplesofanumber(a, b) {
+  array = [];
+  for (i = 0; i <= b; i++) {
+    if (array[i] % a === 0) {
+      array.push(b[i]);
+    }
+  }
+  console.log(array);
+}
+multiplesofanumber(5, 25);
+*/
+
+/*niz = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [12,15,18],
+]; */
+/*
+niz = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+pomarr = [];
+
+for (i = 0; i < niz; i++) {
+  console.log(niz);
+}
+*/
+/* ispis elemenata / CALL BACK FUNCTIONS-----------------------------------------
+arr = [3, 9, 1, 27, 54, 23];
+arr.forEach((el) => {
+  console.log(el);
+});
+*/
+/* suma elemenata
+arr = [3, 9, 1, 27, 54, 23];
+sum = 0;
+arr.forEach((element) => {
+  sum += element;
+  console.log(sum);
+});
+*/
+// ocistiti niz od vrednosti
+/*
+data = [0, 1, false, 2, undefined, " ", null];
+arr = [];
+data.forEach((el) => {
+  if (el) {
+    arr.push(el);
+  }
+  console.log(arr);
+});
+
+*/
+/*
+arr = [1, 2, 3, 2, 1, 5, 6, 9];
+arr2 = [];
+arr.forEach((el) => {
+  if (el !== 1 && el !== 2) {
+    arr2.push(el);
+  }
+});
+console.log(arr2);
+*/
+/*
+function multiple(number) {
+  if (number % 2 == 0) {
+    console.log(8 * number);
+  } else console.log(9 * number);
+}
+multiple(5);
+*/
+/*
+function fakeBin(str) {
+  for (el of str) {
+    if (Number(str) >= 5) {
+      str += "1";
+    } else {
+      str += "0";
+    }
+  }
+  console.log(str);
+}
+fakeBin(45389125586);
+*/
+/*
+function isPalindrome(word) {
+  wsens = word.replaceAll("  ", " ").toLowerCase();
+  lastletter=word-1;
+}
+*/
+/*
+function isPalindrome(x) {
+str="";
+for(i=x.length-1; i>=0, i--;){
+  str+=x[i];
+}
+return str.toLowerCase()===x.toLowerCase();
+}*/
+/* // bez znakova !
+function withoutmarks(s) {
+  str2 = " ";
+  for (el of s) {
+    if (el !== "!") {
+      str2 += el;
+    }
+  }
+  console.log(str2);
+}
+
+withoutmarks("hello!");
+*/
+
+function nonnegativeint(n) {
+  arr = [];
+  for (i = 0; i < n; i++) {
+    arr.push(2 ** i);
+  }
+  console.log(arr);
+}
+nonnegativeint(2);

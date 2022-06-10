@@ -228,7 +228,7 @@ function withoutmarks(s) {
 
 withoutmarks("hello!");
 */
-
+/*
 function nonnegativeint(n) {
   arr = [];
   for (i = 0; i < n; i++) {
@@ -237,3 +237,59 @@ function nonnegativeint(n) {
   console.log(arr);
 }
 nonnegativeint(2);
+*/
+/* filtriranje niza
+data = [1, true, " ", "daris", false, 23, null, undefined, 123, 0, 77];
+//[1,true, "daris", 23, 123 , 77];
+
+arr = data.filter((el) => {
+  return el; // return !el (suprotno/returna false)
+});
+console.log(arr);
+*/
+/*
+res=[1,10,5,4,8,9,6]
+  res = num.filter((num) => {
+    return num > 5;
+  });
+*/
+/*
+  characters=["dog", "wolf", "family", "eaten"];
+
+  arr=characters.filter((el)=>{
+    return el.length<=5;
+  }
+  console.log(arr);*/
+/*
+arr1 = [10, 20, 30];
+arr2 = arr1.map((el) => {
+  return el * 2;
+});
+console.log(arr2);
+*/
+/* num to str
+arr1 = [1, 2, 3, 4, 5];
+arr2 = arr1.map((el) => {
+  return String(el);
+});
+console.log(arr2);
+*/
+/*
+arr1 = ["john", "JACOBS", "jack"];
+arr2 = arr1.map((el) => {
+  return el[0].toUpperCase + el.slice(1).toLowerCase;
+});
+console.log(arr2);
+*/
+//arr.some metoda vraca true/false ako jedan ili vise ispunjava uslov /ili izmedju svakih elemenata
+//arr.every ako svi ispunjavaju uslov
+//forEach poziva funkciju ya svaki element prosledjuje se el index i arr
+//filter vraca novi array filtriran
+//map vraca array iste duzine
+arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+arr2 = arr1.every((el) => {
+  return el > 0;
+});
+console.log(arr2);
+
+//domaci w3school array iteration

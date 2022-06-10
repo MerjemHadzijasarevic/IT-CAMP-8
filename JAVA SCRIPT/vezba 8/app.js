@@ -286,10 +286,35 @@ console.log(arr2);
 //forEach poziva funkciju ya svaki element prosledjuje se el index i arr
 //filter vraca novi array filtriran
 //map vraca array iste duzine
+/*
 arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 arr2 = arr1.every((el) => {
   return el > 0;
 });
 console.log(arr2);
-
+*/
 //domaci w3school array iteration
+//objects ---------------------------------------------------------------
+/*library = [
+  {
+    author: "Bill Gates",
+    title: "Walter Isaacson",
+    readingStatus: true,
+  },
+  {
+    author: "Steve Jobs",
+    title: "Walter Isaacson",
+    readingStatus: true,
+  },
+  {
+    author: "Suzzane Collins",
+    title: "Mocginjay",
+    readingStatus: false,
+  },
+];
+
+library.forEach((a) => {
+  console.log(a.author, " : ", a.readingStatus);
+});
+*/
+//hoisting je karakteristika js = da ce pre izvrsavanja sve deklaracije da prebaci na vrh fajla (moze da koristi funkcije pre nego je deklarisana)

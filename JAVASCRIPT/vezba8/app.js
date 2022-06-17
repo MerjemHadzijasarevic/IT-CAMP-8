@@ -318,3 +318,27 @@ library.forEach((a) => {
 });
 */
 //hoisting je karakteristika js = da ce pre izvrsavanja sve deklaracije da prebaci na vrh fajla (moze da koristi funkcije pre nego je deklarisana)
+// objekat je referentni tip podatka
+//node framework
+//promise je kompletnost asinhrone radnje / obecanje da cemo da dobijemo odg za tu radnju(dobija dve funkcije** resolve i reject**) new Promise ((resolve, reject) =>{resolve ("Hello")})
+//3 statusa fulfilled, pending
+//metode then catch finnaly
+
+//---------------------------------------------promise
+/*
+myPromise = new Promise((resolve, reject) => {
+  num = Math.random() * 10;
+  if (num > 5) {
+    resolve(num);
+  }
+  reject("Broj je manji od pet (${num})");
+});
+
+myPromise.then((res) => {
+  console.log("Promise resolved", res);
+});
+.catch((err) =>{
+  console.log(err);
+});
+*/
+//http metode i http status kodovi

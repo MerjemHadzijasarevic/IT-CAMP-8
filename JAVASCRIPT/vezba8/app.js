@@ -342,3 +342,30 @@ myPromise.then((res) => {
 });
 */
 //http metode i http status kodovi
+//.json pretvara u objekat
+//promise i settimeout je asinhrona pa se salje na web api
+/*fetch(url)
+
+  .then((res) => {
+    return res.json();
+  })
+  .then((a) => {
+    console.log(a);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+*/
+
+//brojac
+
+counterEl = document.getElementById("counter");
+
+function countUp(value) {
+  counter = Number(counterEl.innerText);
+  counterEl.innerText = counter + value;
+}
+function countDown(value) {
+  counter = Number(counterEl.innerText);
+  counterEl.innerText = counter - value;
+}

@@ -238,7 +238,7 @@ function nonnegativeint(n) {
 }
 nonnegativeint(2);
 */
-/* filtriranje niza
+/* filtriranje niza------------------------------
 data = [1, true, " ", "daris", false, 23, null, undefined, 123, 0, 77];
 //[1,true, "daris", 23, 123 , 77];
 
@@ -358,7 +358,7 @@ myPromise.then((res) => {
 */
 
 //brojac
-
+/*
 counterEl = document.getElementById("counter");
 
 function countUp(value) {
@@ -369,3 +369,4 @@ function countDown(value) {
   counter = Number(counterEl.innerText);
   counterEl.innerText = counter - value;
 }
+*/

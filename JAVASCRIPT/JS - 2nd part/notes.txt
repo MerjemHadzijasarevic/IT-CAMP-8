@@ -1,0 +1,242 @@
+// Tipovi podataka u JavaScript_u:
+
+// Za proveru tipa varijable (promenljive) u JavaScript_u se koristi
+// typeof operator.
+
+// Postoje:
+//    1. Primitivni (Primitive) tipovi podataka;
+//    2. Ne primitivni (Non-Primitive) tipovi podataka;
+
+// 1.1 String - Niz karaktera koji se upisuje unutar navodnika.
+//              On moze biti zapisan unutar obicnih ili duplih navodnika (nije bitno)
+//              Stringovi mogu biti bilo koji karakteri A-Z, 0-9
+ 1.2 Number - Predstavlja broj u JavaScript_u.
+//              On moze biti zapisan sa decimalom ili bez nje.
+//              JavaScript ne razlikuje tipove kod brojeva, vec su svi brojevi Number tipa.
+// 1.3 BigInt - Ovaj tip podatka nam sluzi za skladistenje brojeva cija vrednost
+//              prelazi granicu Number tipa podatka.
+//     Zapisivanje velikih brojeva:
+BigInt(945646161616161616185);
+// 1.4 Boolean - Predstavlja logicki entitet i on moze imati dve vrednosti:
+//               1. true;
+//               2. false.
+//               Najveca primena ovog tipa podatka se nalazi u kondicionalima,
+//               tj. u slucajevima ispitivanja da li je odredjeni uslov zadovoljen ili ne.
+//     Zapisivanje Boolean_a:
+// Boolean("odredjeni uslov") => kao izlaz dobijamo true ili false
+
+// 1.5 undefined - Kada odredjenu promenljivu deklarisemo ali joj ne dodelimo vrednost,
+//                 tada undefined predstavlja i vrednost i tip za tu promenljivu.
+
+// 1.6 null - Tip podatka null se javlja za nepostojecu ili promenljivu koja
+//            nije validna.
+
+// 1.7 Symbol - To je novi tip podatka u JavaScript_u.
+//              Koristi se za anonimne i jedinstvene vrednosti.
+
+Symbol("Kako je bilo vreme?");
+
+// 2. Ne primitivni tipovi podataka (Non-Primitive data types).
+//    Primitivni tipovi podataka se koriste da skladistenje promenljivih (varijabli)
+//    koje imaju jednu vrednost.
+//    Dok za promenljive koje sadrze vise vrednosti (ili kompleksne vrednosti)
+//    koristimo ne primitivne tipove podataka (Non-Primitive data types.)
+
+//    Primeri NE primitivnih tipova podataka:
+// 2.1  Array (Nizovi) - Nizovi se koriste za skladistenje vise podataka
+//                       unutar jedne promenljive.
+//                       Nizovu u JavaScript_u imaju mogucnost skladistenja
+//                       elemenata razlicitih tipova podaataka
+2.2 Objects (Objekti) - Objekti su GLAVNA STVAR U PROGRAMSKOM JEZIKU JAVASCRIPT.
+//                         Objekti sluze za skladistenje nekih podataka, i oni se zapisuju
+//                         po principu ime,vrednost (name,value) par.
+//                         Objekti takodje mogu sadrzati razlicite tipove podataka.
+2.3 Set (Setovi) - Setovi su slicni nizovima, sa razlikom kod zapisivanja
+//                     i izmedju ostalih, najbitnija karakteristika kod setova je
+//                     da oni ne mogu imati duplikate.
+//     Zapisivanje setova:
+new Set(["jabuka", "sljiva", "kruska", "jagoda"]);
+
+//  2.4 Maps (Mape) - Predstavljaju ne primitivni tip podatka, koji je vrlo slican objektu.
+//                    Ali zapisivanje se izvrsava na nesto drugaciji nacin.
+//     Zapisivanje mape:
+new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200],
+]);
+
+// Treba imati na umu da svi tipovi podataka koji nisu primitivni tipovi podataka imaju Object tip kada ispitujemo preko funkcije typeof.
+
+Postoji nekoliko nacina da prikazemo podatke u JavaScriptu:
+// 1. innerHTML
+// Primer:
+document.getElementById("paragraf").innerHTML =
+  "Paragraf dodat preko JavaScript_a.";
+// 2. document.write() - Koristi se za testiranje koda.
+// 3. alert() - Ova metoda nam salje upozorenje
+// Primer:
+// alert("Pozdrav");
+// 4. console.log() - Najcesce koriscena funkcija za prikazivanje stvari u konzoli.
+
+//                             JavaScript Identifiers/Names
+//  javaScript names(imena varijabli) moraju pocinjati sa:
+// 1. slovom(velikim ili malim),
+// 2. dollar sign ($)
+// 3. underscore (donja crta) _
+// Napomena.
+//  Promenjiva ne moze pocinjati brojem.
+//  Brojevi se mogu naci kao drugi, treci,... karakter u nazivu promenljive.
+
+//            JavaScript is Case Sensitive!!! (Razlikuje velika i mala slova)
+// "a" je razlicito od "A"
+
+//                 JavaScript varijable
+
+//  Postoji nekoliko nacina da deklarisemo varijablu:
+// 1. Koriscenjem var kljucne reci (keyword)
+var x; // deklaracija
+x = 10; // dodela vrednosti promenljivoj x (inicijalizacija)
+var x = 10; // odjednom izvrsena deklaracija i inicijalizacija
+
+// 2. Koriscenjem let kljucne reci (keyword)
+let x; // deklaracija
+x = 10; // dodela vrednosti promenljivoj x (inicijalizacija)
+let x = 10; // odjednom izvrsena deklaracija i inicijalizacija
+
+// 3. Koriscenjem const kljucne reci (keyword)
+const x = 10; // Kod const kljucne reci odjednom se mora izvrsiti deklaracija i inicijalizacija.
+
+// Varijable (promenljive) su kontejneri za skladistenje vrednosti.
+
+// Neki string mozemo prevesti u number na sledeca dva nacina.
+// 1.Nacin
+brojGodina = +brojGodina; // preko oznake + ce se izvrsiti konverzija u number tip podatka
+console.log(typeof brojGodina);
+console.log(brojGodina);
+// 2.Nacin
+brojGodina = Number(brojGodina);
+console.log(typeof brojGodina);
+
+// Uslov za parnost broja je:
+// broj % 2 === 0 broj je paran
+// broj % 2 !== 0 broj je neparan
+
+// Pristupanje karaktera ide preko indeksa.
+// INDEKSIRANJE KRECE OD 0(NULE)
+// Kad se radi o stringovima krecemo od nule pa sve do (ukupna duzina - 1).
+
+/  FUNKCIJE
+//  DRY (Don't repeat yourself)
+
+// Funkcije predstavljaju blok koda koji se izvrsava samo prilikom pozivanja.
+
+// Nacini zapisivanja funkcija:
+// Koriscenjem keyword (rezervisane reci) function
+
+// STRINGOVI
+
+// STRINGOVI predstavljaju immutable promenljive (promenljive koje ne mozemo da menjamo).
+// Ali obicno pri potrebi da izmenimo string cemo definisati novu promenljivu i dodeliti
+// joj karaktere prema postojecoj (obicno koriscenjem for petlje).
+// 3 metode za uzimanje dela stringa:
+//    1. slice(start, end) - end se ne ukljucuje
+//    2. substring(start, end) - end se ne ukljucuje (Razlika u odnosu na slice je u tome sto substring metoda ne prima negativne vrednosti)
+//    3. substr(start, length)
+// Menjanje sadrzaja se moze izvrsiti koriscenjem replace() metode.
+
+let recenica = "Nekad zelimo izmeniti sadrzaj nekim drugim.";
+
+// Metoda prima dva argumenta. Prvi predstavlja rec koju zelimo da izmenimo, drugi novu rec
+// koja ce se naci umesto stare.
+let novaRecenica = recenica.replace("sadrzaj", "tekst");
+
+
+
+// Number.isInteger() metoda varaca boolean u zavisnosti od toga da li je argument date metode ceo broj ili nije.
+/// Hoisting kod funkcija vazi ako se radi o funkcijama definisanim preko function keyword,
+ dok kod arrow funcija ne vazi (nije moguce pozvati funkciju pre definisanja iste). 
+ Mehanizam premestanja deklaracija na vrhu scope.  
+//! jedan znak uzvika je negacija i daje false
+//!! dupla negacija i vraca na pocetnu vrednost alternativa boolean("string")
+npr: 
+// Da li je neka vrednost TRUTHY ili FALSY
+console.log(!!"Muhamed");
+// console.log(Boolean("Muhamed")); alternativa
+
+-Rekurzija - Pozivanje funkcije unutar iste. Moze se postici efekat petlje.
+-Callback funkcija predstavlja funkciju koja se nadje kao argument neke druge funkcije (metode).
+
+// OBJEKTI SU GLAVNA STVAR U JAVASCRIPTU.
+// Objekti su promenljive koje mogu sadrzati vise vrednosti.
+// Oni se zapisuju u name:value paru. Jedan takav par se zove svojstvo.
+
+// Svojstvima objekta mozemo da pristupimo na 2 nacina:
+1.
+console.log(car.marka);
+2.
+console.log(car["marka"]);
+
+// Objekti takodje mogu sadrzati metode.
+// Metode su sadrzane unutar objekta kao definicija funkcije.
+
+--PRIMER ZA THIS:
+const person = {
+  ime: "Muhamed",
+  prezime: "Krkmisevic",
+  imeIPrezime: function () {
+    return this.ime + " " + this.prezime;},
+};
+// this predstavlja referencu na neki objekat.
+// this nije promenljiva, vec keyword (rezervisana rec) u JavaScript_u.
+// Vrednost this se ne moze promeniti.
+
+//api aplication programing interface
+
+//JSON- JAVASCRIPT Object Notation
+-Najcesce se koristi prilikom slanja podataka sa servera do web stranice
+-Sintaksa vrlo slicna objekatu u JS :
+-JSON format: 
+  const student ={
+   " ime": "Merjem",
+    "prezime": "Hadzijasarevic",
+    "brojIndexa":"036004",
+  }  name se takodje pise pod navodnicima kao i value
+
+  //Objekti su promenljivi ! (Mutable)
+//Bilo koja promena na x objektu ce promeniti vrednost na person obj.
+//Ovo vazi za neprimitivne tipove podataka, tj. na novoj promenljivoj x dodeljujemo referencu na obj person (a ne vrednost.)
+//Identicko izjednacavanje.
+//Brisanje svojstva iz objekta se vrsi preko delete keyworda:
+
+//delete person["JMBG"];
+delete person.JMBG;
+console.log(person);
+//delete brise i name i value.
+
+//vrednost u objekat moze biti: neki drugi objekat, niz, metoda-funkcija itd(string, num. boolean)
+
+//JSON.stringify() metoda sluzi za prevodjenje objekta u JSON, nakon toga JSON formata u string.
+const stringObjekta = JSON.stringify(person);
+console.log(stringObjekta);
+
+console.log(typeof JSON.parse(stringObjekta));
+
+//JSON.parse nam vraca (ako moze) objekat iz poslatog argumenta
+
+//find metoda vraca samo jedan element (nizovi)
+
+//Nastavak kursa-
+
+//Node- runtime za js- program koji vrsi egzekuciju i kompajlovanje JS koda
+// Node ima mnostvo svojih modula, najpoznatiji su fs(fileSystem) i http modul
+
+//cd - change directory je komanda u terminalu koja sluzi za navigiranje kroz foldere  unutar sistema
+// %cd desktop/folder koji hocemo
+//% ls je komanda koja sluzi za izlistavanje foldera i fajlova koji imaju unutar jednog foldera
+// mkdir- make directory je komanda koja sluzi za kreiranje novog foldera ili direktorijuma
+// .. -dve tacke sluze da se vratimo jedan korak nazad
+
+//DOM 
+DOM-document object manipulation
+DOM- sluzi za manipulaciju elementima html-a i css-a kroz JS kod
